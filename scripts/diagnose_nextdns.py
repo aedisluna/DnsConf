@@ -45,9 +45,9 @@ def main():
         cursor = None
         pages = 0
         while True:
-            suffix = "?limit=500"
+            suffix = ""
             if cursor:
-                suffix += "&cursor=" + urllib.parse.quote(cursor, safe="")
+                suffix += "?cursor=" + urllib.parse.quote(cursor, safe="")
             page = read_json(base + suffix, key)
             data = page.get("data", [])
             if not isinstance(data, list):
@@ -80,3 +80,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
