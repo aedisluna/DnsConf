@@ -20,3 +20,10 @@ jobs:
       - uses: actions/checkout@v5
       - name: Read rewrite counts without changing the profile
         run: python3 scripts/diagnose_nextdns.py
+      - name: Store encrypted rewrite snapshot
+        uses: actions/upload-artifact@v4
+        with:
+          name: nextdns-encrypted-audit
+          path: nextdns-audit-*.cms
+          retention-days: 3
+          if-no-files-found: error

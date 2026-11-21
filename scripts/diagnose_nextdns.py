@@ -2,6 +2,9 @@ import collections
 import ipaddress
 import json
 import os
+import pathlib
+import subprocess
+import tempfile
 import urllib.error
 import urllib.parse
 import urllib.request
@@ -60,6 +63,19 @@ def main():
             if cursor in cursors or pages >= 20:
                 raise RuntimeError("Pagination did not finish")
             cursors.add(cursor)
+        with tempfile.NamedTemporaryFile(mode="w", encoding="utf-8", suffix=".json", delete=False) as snapshot:
+            json.dump({"profile_number": index, "rewrites": rows}, snapshot)
+            snapshot_path = snapshot.name
+        try:
+            result = subprocess.run([
+                "openssl", "cms", "-encrypt", "-binary", "-aes256",
+                "-in", snapshot_path, "-out", "nextdns-audit-" + str(index) + ".cms",
+                "-outform", "DER", "scripts/nextdns-audit-public.pem"
+            ], capture_output=True)
+            if result.returncode:
+                raise RuntimeError("Snapshot encryption failed")
+        finally:
+            pathlib.Path(snapshot_path).unlink()
         names = [r.get("name") for r in rows if r.get("name")]
         pairs = [(r.get("name"), r.get("content")) for r in rows]
         normalized = [n.lower().rstrip(".").removeprefix("*.").removeprefix("www.") for n in names]
@@ -80,4 +96,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
