@@ -220,6 +220,13 @@ data: lists and rules used to set up blocks.
 
 ### NextDNS
 
+NextDNS has a [limit of 500 rewrites per profile](https://nextdns.github.io/api/#nested-objects-and-arrays), regardless of request batch size.
+The configurator reduces redundant subdomain rules using NextDNS inheritance. If a source offers several IPs for a domain,
+an IP shared with its parent is preferred, using only addresses offered by the first source containing that domain.
+Different answers and intervening existing rules are preserved. The planned total is checked before deleting any rewrites;
+if it exceeds 500, the run stops with an explanation instead of dropping domains. Existing rules outside the current
+sources are retained and may need a separate review when older sources have changed.
+
 For `REDIRECT`:
 
 + Existing domain will be updated if redirect IP has changed
