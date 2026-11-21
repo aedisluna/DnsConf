@@ -1,0 +1,1638 @@
+{
+  "expected_before_sha256": "10e2b5e2d574e2d326094ca084d6e9f9108b4210fdf4faf773fb83759d40ff6c",
+  "historical_source": "https://raw.githubusercontent.com/Internet-Helper/GeoHideDNS/9fffd5fa69bf214724800d228dff66e1f1fe621b/hosts/hosts",
+  "public_rules": [
+    {
+      "name": "ntc.party",
+      "content": "130.255.77.28"
+    },
+    {
+      "name": "dnstest.geohide.ru",
+      "content": "159.194.200.33"
+    },
+    {
+      "name": "37signals.com",
+      "content": "193.233.112.88"
+    },
+    {
+      "name": "basecamp.com",
+      "content": "193.233.112.67"
+    },
+    {
+      "name": "basecampapi.com",
+      "content": "193.233.112.68"
+    },
+    {
+      "name": "aave.com",
+      "content": "159.194.200.33"
+    },
+    {
+      "name": "adobe.io",
+      "content": "193.233.112.67"
+    },
+    {
+      "name": "affinity.studio",
+      "content": "193.233.112.88"
+    },
+    {
+      "name": "analog.com",
+      "content": "193.233.112.67"
+    },
+    {
+      "name": "amd.com",
+      "content": "193.233.112.67"
+    },
+    {
+      "name": "arkoselabs.com",
+      "content": "193.233.112.88"
+    },
+    {
+      "name": "arduino.cc",
+      "content": "159.194.200.33"
+    },
+    {
+      "name": "arrow.com",
+      "content": "159.194.200.33"
+    },
+    {
+      "name": "atlassian.com",
+      "content": "159.194.200.33"
+    },
+    {
+      "name": "avast.com",
+      "content": "159.194.200.33"
+    },
+    {
+      "name": "avast.ru",
+      "content": "159.194.200.33"
+    },
+    {
+      "name": "autocad.com",
+      "content": "159.194.200.33"
+    },
+    {
+      "name": "autodesk.ae",
+      "content": "159.194.200.33"
+    },
+    {
+      "name": "autodesk.be",
+      "content": "193.233.112.67"
+    },
+    {
+      "name": "autodesk.com",
+      "content": "193.233.112.68"
+    },
+    {
+      "name": "autodesk.eu",
+      "content": "159.194.200.33"
+    },
+    {
+      "name": "autodesk.net",
+      "content": "193.233.112.67"
+    },
+    {
+      "name": "autodesk360.com",
+      "content": "159.194.200.33"
+    },
+    {
+      "name": "pubnubapi.com",
+      "content": "193.233.112.68"
+    },
+    {
+      "name": "qualtrics.com",
+      "content": "193.233.112.67"
+    },
+    {
+      "name": "web-platform.io",
+      "content": "193.233.112.88"
+    },
+    {
+      "name": "badoo.app",
+      "content": "193.233.112.88"
+    },
+    {
+      "name": "badoocdn.com",
+      "content": "193.233.112.67"
+    },
+    {
+      "name": "badoo.com",
+      "content": "159.194.200.33"
+    },
+    {
+      "name": "bestbuy.com",
+      "content": "193.233.112.67"
+    },
+    {
+      "name": "brave.com",
+      "content": "193.233.112.67"
+    },
+    {
+      "name": "access.broadcom.com",
+      "content": "159.194.200.33"
+    },
+    {
+      "name": "knowledge.broadcom.com",
+      "content": "159.194.200.33"
+    },
+    {
+      "name": "support.broadcom.com",
+      "content": "193.233.112.68"
+    },
+    {
+      "name": "profile.broadcom.com",
+      "content": "193.233.112.67"
+    },
+    {
+      "name": "bike-components.de",
+      "content": "193.233.112.68"
+    },
+    {
+      "name": "bike24.com",
+      "content": "193.233.112.67"
+    },
+    {
+      "name": "canva.com",
+      "content": "193.233.112.88"
+    },
+    {
+      "name": "canva-apps.com",
+      "content": "193.233.112.68"
+    },
+    {
+      "name": "canva.dev",
+      "content": "159.194.200.33"
+    },
+    {
+      "name": "camelai.com",
+      "content": "193.233.112.68"
+    },
+    {
+      "name": "capcut.com",
+      "content": "193.233.112.67"
+    },
+    {
+      "name": "cerebras.ai",
+      "content": "193.233.112.68"
+    },
+    {
+      "name": "enscape3d.com",
+      "content": "193.233.112.68"
+    },
+    {
+      "name": "chaos.com",
+      "content": "159.194.200.33"
+    },
+    {
+      "name": "chatgpt.com",
+      "content": "193.233.112.88"
+    },
+    {
+      "name": "chatgpt.site",
+      "content": "159.194.200.33"
+    },
+    {
+      "name": "oaiusercontent.com",
+      "content": "193.233.112.88"
+    },
+    {
+      "name": "oaistatic.com",
+      "content": "159.194.200.33"
+    },
+    {
+      "name": "openai.com",
+      "content": "193.233.112.68"
+    },
+    {
+      "name": "chess.com",
+      "content": "193.233.112.68"
+    },
+    {
+      "name": "anthropic.com",
+      "content": "193.233.112.68"
+    },
+    {
+      "name": "claude.ai",
+      "content": "159.194.200.33"
+    },
+    {
+      "name": "claude.com",
+      "content": "193.233.112.68"
+    },
+    {
+      "name": "claudemcpclient.com",
+      "content": "159.194.200.33"
+    },
+    {
+      "name": "claudeusercontent.com",
+      "content": "193.233.112.67"
+    },
+    {
+      "name": "clickup.com",
+      "content": "159.194.200.33"
+    },
+    {
+      "name": "coreweave.com",
+      "content": "193.233.112.88"
+    },
+    {
+      "name": "corsair.com",
+      "content": "193.233.112.88"
+    },
+    {
+      "name": "crunchyroll.com",
+      "content": "193.233.112.88"
+    },
+    {
+      "name": "cummins.com",
+      "content": "193.233.112.67"
+    },
+    {
+      "name": "api2.cursor.sh",
+      "content": "193.233.112.67"
+    },
+    {
+      "name": "api3.cursor.sh",
+      "content": "159.194.200.33"
+    },
+    {
+      "name": "api4.cursor.sh",
+      "content": "193.233.112.68"
+    },
+    {
+      "name": "api5.cursor.sh",
+      "content": "193.233.112.88"
+    },
+    {
+      "name": "authenticate.cursor.sh",
+      "content": "159.194.200.33"
+    },
+    {
+      "name": "authenticator.cursor.sh",
+      "content": "159.194.200.33"
+    },
+    {
+      "name": "cursor.com",
+      "content": "193.233.112.68"
+    },
+    {
+      "name": "download.todesktop.com",
+      "content": "193.233.112.88"
+    },
+    {
+      "name": "marketplace.cursorapi.com",
+      "content": "193.233.112.88"
+    },
+    {
+      "name": "repo42.cursor.sh",
+      "content": "193.233.112.67"
+    },
+    {
+      "name": "cursor-cdn.com",
+      "content": "193.233.112.67"
+    },
+    {
+      "name": "cursorvm.com",
+      "content": "159.194.200.33"
+    },
+    {
+      "name": "us-asia.gcpp.cursor.sh",
+      "content": "159.194.200.33"
+    },
+    {
+      "name": "us-eu.gcpp.cursor.sh",
+      "content": "193.233.112.88"
+    },
+    {
+      "name": "us-only.gcpp.cursor.sh",
+      "content": "193.233.112.88"
+    },
+    {
+      "name": "deepl.app",
+      "content": "193.233.112.68"
+    },
+    {
+      "name": "deepl.com",
+      "content": "193.233.112.67"
+    },
+    {
+      "name": "deezer.com",
+      "content": "159.194.200.33"
+    },
+    {
+      "name": "dellcdn.com",
+      "content": "193.233.112.67"
+    },
+    {
+      "name": "dell.com",
+      "content": "159.194.200.33"
+    },
+    {
+      "name": "cici.com",
+      "content": "193.233.112.67"
+    },
+    {
+      "name": "dola.com",
+      "content": "193.233.112.68"
+    },
+    {
+      "name": "digikey.com",
+      "content": "193.233.112.67"
+    },
+    {
+      "name": "digikeyassets.com",
+      "content": "193.233.112.88"
+    },
+    {
+      "name": "dyson.com",
+      "content": "159.194.200.33"
+    },
+    {
+      "name": "dyson.de",
+      "content": "193.233.112.88"
+    },
+    {
+      "name": "dyson.se",
+      "content": "193.233.112.68"
+    },
+    {
+      "name": "elevenlabs.io",
+      "content": "193.233.112.67"
+    },
+    {
+      "name": "elevenmusic.io",
+      "content": "193.233.112.88"
+    },
+    {
+      "name": "elevenreader.io",
+      "content": "193.233.112.88"
+    },
+    {
+      "name": "elgato.com",
+      "content": "193.233.112.67"
+    },
+    {
+      "name": "api.fitbit.com",
+      "content": "193.233.112.67"
+    },
+    {
+      "name": "fitbit-pa.googleapis.com",
+      "content": "193.233.112.68"
+    },
+    {
+      "name": "fitbit.google.com",
+      "content": "193.233.112.88"
+    },
+    {
+      "name": "fitbitvestibuleshim-pa.googleapis.com",
+      "content": "193.233.112.68"
+    },
+    {
+      "name": "fmhy.lol",
+      "content": "193.233.112.67"
+    },
+    {
+      "name": "fmhy.net",
+      "content": "193.233.112.67"
+    },
+    {
+      "name": "formula1.com",
+      "content": "193.233.112.88"
+    },
+    {
+      "name": "framer.com",
+      "content": "193.233.112.88"
+    },
+    {
+      "name": "game8.co",
+      "content": "193.233.112.88"
+    },
+    {
+      "name": "game8.co.jp",
+      "content": "159.194.200.33"
+    },
+    {
+      "name": "game8.jp",
+      "content": "193.233.112.88"
+    },
+    {
+      "name": "genspark.ai",
+      "content": "193.233.112.67"
+    },
+    {
+      "name": "aida.googleapis.com",
+      "content": "193.233.112.88"
+    },
+    {
+      "name": "antigravity-pa.googleapis.com",
+      "content": "193.233.112.67"
+    },
+    {
+      "name": "antigravity-unleash.goog",
+      "content": "193.233.112.67"
+    },
+    {
+      "name": "antigravity.googleapis.com",
+      "content": "193.233.112.68"
+    },
+    {
+      "name": "antigravity.google",
+      "content": "193.233.112.67"
+    },
+    {
+      "name": "datastudio.google.com",
+      "content": "193.233.112.88"
+    },
+    {
+      "name": "flow.google",
+      "content": "193.233.112.67"
+    },
+    {
+      "name": "flow.google.com",
+      "content": "159.194.200.33"
+    },
+    {
+      "name": "flowmusic.app",
+      "content": "159.194.200.33"
+    },
+    {
+      "name": "notebook-pa.googleapis.com",
+      "content": "193.233.112.88"
+    },
+    {
+      "name": "notebook.google",
+      "content": "159.194.200.33"
+    },
+    {
+      "name": "notebook.google.com",
+      "content": "193.233.112.67"
+    },
+    {
+      "name": "ai.google.dev",
+      "content": "159.194.200.33"
+    },
+    {
+      "name": "aicode.googleapis.com",
+      "content": "159.194.200.33"
+    },
+    {
+      "name": "aisandbox-pa.googleapis.com",
+      "content": "159.194.200.33"
+    },
+    {
+      "name": "aistudio.google.com",
+      "content": "159.194.200.33"
+    },
+    {
+      "name": "aitestkitchen.withgoogle.com",
+      "content": "159.194.200.33"
+    },
+    {
+      "name": "alkalicore-pa.clients6.google.com",
+      "content": "193.233.112.67"
+    },
+    {
+      "name": "alkalimakersuite-pa.clients6.google.com",
+      "content": "193.233.112.88"
+    },
+    {
+      "name": "apis.google.com",
+      "content": "193.233.112.67"
+    },
+    {
+      "name": "appcatalyst.pa.googleapis.com",
+      "content": "193.233.112.88"
+    },
+    {
+      "name": "assistant-s3-pa.googleapis.com",
+      "content": "193.233.112.88"
+    },
+    {
+      "name": "bard.google.com",
+      "content": "193.233.112.68"
+    },
+    {
+      "name": "daily-cloudcode-pa.googleapis.com",
+      "content": "193.233.112.68"
+    },
+    {
+      "name": "deepmind.com",
+      "content": "193.233.112.68"
+    },
+    {
+      "name": "deepmind.google",
+      "content": "193.233.112.68"
+    },
+    {
+      "name": "developerprofiles-pa.googleapis.com",
+      "content": "193.233.112.68"
+    },
+    {
+      "name": "geller-pa.googleapis.com",
+      "content": "159.194.200.33"
+    },
+    {
+      "name": "gemini.google",
+      "content": "193.233.112.88"
+    },
+    {
+      "name": "gemini.google.com",
+      "content": "193.233.112.68"
+    },
+    {
+      "name": "geminiweb-pa.clients.google.com",
+      "content": "193.233.112.68"
+    },
+    {
+      "name": "geminiweb-pa.clients6.google.com",
+      "content": "193.233.112.67"
+    },
+    {
+      "name": "generativeai.google",
+      "content": "193.233.112.67"
+    },
+    {
+      "name": "generativelanguage.googleapis.com",
+      "content": "193.233.112.68"
+    },
+    {
+      "name": "jules.google",
+      "content": "159.194.200.33"
+    },
+    {
+      "name": "jules.google.com",
+      "content": "193.233.112.67"
+    },
+    {
+      "name": "labs.google",
+      "content": "159.194.200.33"
+    },
+    {
+      "name": "labs.google.com",
+      "content": "159.194.200.33"
+    },
+    {
+      "name": "labstailwind.pa.googleapis.com",
+      "content": "193.233.112.68"
+    },
+    {
+      "name": "lookerstudio.google.com",
+      "content": "193.233.112.88"
+    },
+    {
+      "name": "makersuite.google.com",
+      "content": "159.194.200.33"
+    },
+    {
+      "name": "notebooklm.google",
+      "content": "193.233.112.68"
+    },
+    {
+      "name": "notebooklm.google.com",
+      "content": "193.233.112.88"
+    },
+    {
+      "name": "notebooklm-pa.googleapis.com",
+      "content": "193.233.112.68"
+    },
+    {
+      "name": "o.pki.goog",
+      "content": "193.233.112.67"
+    },
+    {
+      "name": "opal.google",
+      "content": "193.233.112.68"
+    },
+    {
+      "name": "opal.google.com",
+      "content": "193.233.112.88"
+    },
+    {
+      "name": "opal.withgoogle.com",
+      "content": "193.233.112.88"
+    },
+    {
+      "name": "people-pa.clients6.google.com",
+      "content": "193.233.112.68"
+    },
+    {
+      "name": "playground.google",
+      "content": "159.194.200.33"
+    },
+    {
+      "name": "proactivebackend-pa.googleapis.com",
+      "content": "159.194.200.33"
+    },
+    {
+      "name": "robinfrontend-pa.googleapis.com",
+      "content": "193.233.112.68"
+    },
+    {
+      "name": "signaler-pa.clients6.google.com",
+      "content": "193.233.112.68"
+    },
+    {
+      "name": "stitch.withgoogle.com",
+      "content": "193.233.112.67"
+    },
+    {
+      "name": "suggestqueries.google.com",
+      "content": "193.233.112.88"
+    },
+    {
+      "name": "waa-pa.clients6.google.com",
+      "content": "193.233.112.67"
+    },
+    {
+      "name": "webchannel-alkalimakersuite-pa.clients6.google.com",
+      "content": "159.194.200.33"
+    },
+    {
+      "name": "grok.com",
+      "content": "159.194.200.33"
+    },
+    {
+      "name": "grok.x.com",
+      "content": "193.233.112.88"
+    },
+    {
+      "name": "x.ai",
+      "content": "159.194.200.33"
+    },
+    {
+      "name": "api.groq.com",
+      "content": "159.194.200.33"
+    },
+    {
+      "name": "console.groq.com",
+      "content": "193.233.112.67"
+    },
+    {
+      "name": "guidedhacking.com",
+      "content": "193.233.112.88"
+    },
+    {
+      "name": "guilded.gg",
+      "content": "193.233.112.88"
+    },
+    {
+      "name": "hume.ai",
+      "content": "193.233.112.68"
+    },
+    {
+      "name": "ikea.com",
+      "content": "193.233.112.68"
+    },
+    {
+      "name": "api.imgur.com",
+      "content": "193.233.112.67"
+    },
+    {
+      "name": "intel.com",
+      "content": "193.233.112.68"
+    },
+    {
+      "name": "intel.de",
+      "content": "193.233.112.68"
+    },
+    {
+      "name": "intel.se",
+      "content": "193.233.112.88"
+    },
+    {
+      "name": "geolocation.onetrust.com",
+      "content": "193.233.112.68"
+    },
+    {
+      "name": "api.jetbrains.ai",
+      "content": "159.194.200.33"
+    },
+    {
+      "name": "jetbrains.com",
+      "content": "193.233.112.67"
+    },
+    {
+      "name": "jetbrains.space",
+      "content": "159.194.200.33"
+    },
+    {
+      "name": "myjetbrains.com",
+      "content": "193.233.112.68"
+    },
+    {
+      "name": "kaleido.ai",
+      "content": "193.233.112.68"
+    },
+    {
+      "name": "last.fm",
+      "content": "193.233.112.68"
+    },
+    {
+      "name": "ws.audioscrobbler.com",
+      "content": "193.233.112.67"
+    },
+    {
+      "name": "lego.com",
+      "content": "193.233.112.88"
+    },
+    {
+      "name": "linear.app",
+      "content": "159.194.200.33"
+    },
+    {
+      "name": "make.com",
+      "content": "193.233.112.68"
+    },
+    {
+      "name": "makita.ca",
+      "content": "193.233.112.67"
+    },
+    {
+      "name": "makita.cl",
+      "content": "159.194.200.33"
+    },
+    {
+      "name": "makita.co.nz",
+      "content": "193.233.112.67"
+    },
+    {
+      "name": "makita.com.au",
+      "content": "159.194.200.33"
+    },
+    {
+      "name": "makita.com.kh",
+      "content": "193.233.112.68"
+    },
+    {
+      "name": "makita.com.tw",
+      "content": "193.233.112.67"
+    },
+    {
+      "name": "makita.sk",
+      "content": "193.233.112.68"
+    },
+    {
+      "name": "makita.ua",
+      "content": "193.233.112.68"
+    },
+    {
+      "name": "makitalatinamerica.com",
+      "content": "159.194.200.33"
+    },
+    {
+      "name": "files.manuscdn.com",
+      "content": "193.233.112.67"
+    },
+    {
+      "name": "manus.im",
+      "content": "159.194.200.33"
+    },
+    {
+      "name": "meta.ai",
+      "content": "193.233.112.68"
+    },
+    {
+      "name": "microchip.com",
+      "content": "193.233.112.67"
+    },
+    {
+      "name": "auth.xboxlive.com",
+      "content": "193.233.112.88"
+    },
+    {
+      "name": "copilot.microsoft.com",
+      "content": "193.233.112.67"
+    },
+    {
+      "name": "designer.microsoft.com",
+      "content": "159.194.200.33"
+    },
+    {
+      "name": "ecs.office.com",
+      "content": "193.233.112.88"
+    },
+    {
+      "name": "edgeservices.bing.com",
+      "content": "193.233.112.88"
+    },
+    {
+      "name": "gssv-play-prod.xboxlive.com",
+      "content": "193.233.112.88"
+    },
+    {
+      "name": "rewards.bing.com",
+      "content": "193.233.112.67"
+    },
+    {
+      "name": "sydney.bing.com",
+      "content": "193.233.112.68"
+    },
+    {
+      "name": "titlestorage.xboxlive.com",
+      "content": "193.233.112.68"
+    },
+    {
+      "name": "xboxdesignlab.xbox.com",
+      "content": "193.233.112.88"
+    },
+    {
+      "name": "img.modivo.cloud",
+      "content": "159.194.200.33"
+    },
+    {
+      "name": "modivo.pl",
+      "content": "159.194.200.33"
+    },
+    {
+      "name": "monica.im",
+      "content": "193.233.112.68"
+    },
+    {
+      "name": "evs.blue.mongodb.co",
+      "content": "159.194.200.33"
+    },
+    {
+      "name": "mongodb.com",
+      "content": "193.233.112.67"
+    },
+    {
+      "name": "naukri.com",
+      "content": "193.233.112.67"
+    },
+    {
+      "name": "naukimg.com",
+      "content": "159.194.200.33"
+    },
+    {
+      "name": "notion.com",
+      "content": "193.233.112.88"
+    },
+    {
+      "name": "notion.so",
+      "content": "193.233.112.68"
+    },
+    {
+      "name": "build.nvidia.com",
+      "content": "193.233.112.88"
+    },
+    {
+      "name": "developer.nvidia.com",
+      "content": "159.194.200.33"
+    },
+    {
+      "name": "ngc.nvidia.com",
+      "content": "193.233.112.88"
+    },
+    {
+      "name": "opencode.ai",
+      "content": "193.233.112.68"
+    },
+    {
+      "name": "openrouter.ai",
+      "content": "193.233.112.68"
+    },
+    {
+      "name": "oracle.com",
+      "content": "193.233.112.68"
+    },
+    {
+      "name": "eu.posthog.com",
+      "content": "193.233.112.67"
+    },
+    {
+      "name": "pump.fun",
+      "content": "193.233.112.68"
+    },
+    {
+      "name": "reve.art",
+      "content": "193.233.112.67"
+    },
+    {
+      "name": "reve.com",
+      "content": "193.233.112.67"
+    },
+    {
+      "name": "qwant.com",
+      "content": "159.194.200.33"
+    },
+    {
+      "name": "slack.com",
+      "content": "193.233.112.68"
+    },
+    {
+      "name": "slackb.com",
+      "content": "193.233.112.68"
+    },
+    {
+      "name": "slack-core.com",
+      "content": "193.233.112.67"
+    },
+    {
+      "name": "slack-edge.com",
+      "content": "193.233.112.68"
+    },
+    {
+      "name": "slack-files.com",
+      "content": "193.233.112.67"
+    },
+    {
+      "name": "slack-imgs.com",
+      "content": "159.194.200.33"
+    },
+    {
+      "name": "scribd.com",
+      "content": "193.233.112.88"
+    },
+    {
+      "name": "scribdassets.com",
+      "content": "193.233.112.67"
+    },
+    {
+      "name": "sketchup.com",
+      "content": "193.233.112.88"
+    },
+    {
+      "name": "spotify.dev",
+      "content": "193.233.112.68"
+    },
+    {
+      "name": "spotify.com",
+      "content": "193.233.112.67"
+    },
+    {
+      "name": "scdn.co",
+      "content": "193.233.112.88"
+    },
+    {
+      "name": "strava.com",
+      "content": "159.194.200.33"
+    },
+    {
+      "name": "api.stumbleguys.com",
+      "content": "2.27.118.34"
+    },
+    {
+      "name": "matchmaking.stumbleguys.com",
+      "content": "2.27.118.34"
+    },
+    {
+      "name": "game.brawlstarsgame.com",
+      "content": "62.233.36.83"
+    },
+    {
+      "name": "game.clashroyaleapp.com",
+      "content": "81.17.20.82"
+    },
+    {
+      "name": "game.squadbustersgame.com",
+      "content": "81.17.20.84"
+    },
+    {
+      "name": "gamea.clashofclans.com",
+      "content": "81.17.20.86"
+    },
+    {
+      "name": "accounts.supercell.com",
+      "content": "2.27.118.34"
+    },
+    {
+      "name": "cdn.id.supercell.com",
+      "content": "2.27.118.34"
+    },
+    {
+      "name": "clashofclans.inbox.supercell.com",
+      "content": "2.27.118.34"
+    },
+    {
+      "name": "game-assets.brawlstarsgame.com",
+      "content": "2.27.118.34"
+    },
+    {
+      "name": "game-assets.clashofclans.com",
+      "content": "2.27.118.34"
+    },
+    {
+      "name": "game-assets.clashroyaleapp.com",
+      "content": "2.27.118.34"
+    },
+    {
+      "name": "game.boombeachgame.com",
+      "content": "2.27.118.34"
+    },
+    {
+      "name": "game.mocogame.com",
+      "content": "2.27.118.34"
+    },
+    {
+      "name": "security.id.supercell.com",
+      "content": "2.27.118.34"
+    },
+    {
+      "name": "store.supercell.com",
+      "content": "2.27.118.34"
+    },
+    {
+      "name": "tableau.com",
+      "content": "193.233.112.67"
+    },
+    {
+      "name": "controlplane.tailscale.com",
+      "content": "159.194.200.33"
+    },
+    {
+      "name": "download.teamviewer.com",
+      "content": "159.194.200.33"
+    },
+    {
+      "name": "dl.teamviewer.com",
+      "content": "159.194.200.33"
+    },
+    {
+      "name": "api-sg-central.trae.ai",
+      "content": "193.233.112.67"
+    },
+    {
+      "name": "api.trae.ai",
+      "content": "159.194.200.33"
+    },
+    {
+      "name": "api16-normal-alisg.mchost.guru",
+      "content": "193.233.112.68"
+    },
+    {
+      "name": "trae-api-sg.mchost.guru",
+      "content": "193.233.112.67"
+    },
+    {
+      "name": "tria.ge",
+      "content": "159.194.200.33"
+    },
+    {
+      "name": "truthsocial.com",
+      "content": "193.233.112.88"
+    },
+    {
+      "name": "tuta.com",
+      "content": "193.233.112.67"
+    },
+    {
+      "name": "tutanota.com",
+      "content": "193.233.112.67"
+    },
+    {
+      "name": "gql.twitch.tv",
+      "content": "193.233.112.68"
+    },
+    {
+      "name": "usher.ttvnw.net",
+      "content": "193.233.112.67"
+    },
+    {
+      "name": "weather.com",
+      "content": "193.233.112.68"
+    },
+    {
+      "name": "wunderground.com",
+      "content": "193.233.112.68"
+    },
+    {
+      "name": "wund.com",
+      "content": "193.233.112.68"
+    },
+    {
+      "name": "w-x.co",
+      "content": "159.194.200.33"
+    },
+    {
+      "name": "wxug.com",
+      "content": "159.194.200.33"
+    },
+    {
+      "name": "web.archive.org",
+      "content": "159.194.200.33"
+    },
+    {
+      "name": "codeium.com",
+      "content": "193.233.112.67"
+    },
+    {
+      "name": "codeiumdata.com",
+      "content": "193.233.112.67"
+    },
+    {
+      "name": "windsurf.com",
+      "content": "193.233.112.68"
+    },
+    {
+      "name": "users.wix.com",
+      "content": "193.233.112.67"
+    },
+    {
+      "name": "api.workos.com",
+      "content": "193.233.112.88"
+    },
+    {
+      "name": "xerox.com",
+      "content": "193.233.112.68"
+    },
+    {
+      "name": "app.zerossl.com",
+      "content": "159.194.200.33"
+    },
+    {
+      "name": "api.cdnlibs.org",
+      "content": "193.233.112.67"
+    },
+    {
+      "name": "builds.parsec.app",
+      "content": "193.233.112.88"
+    },
+    {
+      "name": "platform.parallel.ai",
+      "content": "159.194.200.33"
+    },
+    {
+      "name": "api.home-connect.com",
+      "content": "193.233.112.68"
+    },
+    {
+      "name": "api.radarr.video",
+      "content": "193.233.112.68"
+    },
+    {
+      "name": "astockcdn.net",
+      "content": "193.233.112.68"
+    },
+    {
+      "name": "aybest.xyz",
+      "content": "193.233.112.68"
+    },
+    {
+      "name": "behance.net",
+      "content": "193.233.112.67"
+    },
+    {
+      "name": "blogs.sap.com",
+      "content": "193.233.112.88"
+    },
+    {
+      "name": "buf.build",
+      "content": "193.233.112.68"
+    },
+    {
+      "name": "bumble.com",
+      "content": "193.233.112.88"
+    },
+    {
+      "name": "buymeacoffee.com",
+      "content": "193.233.112.88"
+    },
+    {
+      "name": "ciscobinary.openh264.org",
+      "content": "159.194.200.33"
+    },
+    {
+      "name": "cms-images.mmst.eu",
+      "content": "193.233.112.67"
+    },
+    {
+      "name": "community.sap.com",
+      "content": "193.233.112.88"
+    },
+    {
+      "name": "consent.trustarc.com",
+      "content": "193.233.112.68"
+    },
+    {
+      "name": "console.neon.tech",
+      "content": "193.233.112.67"
+    },
+    {
+      "name": "deniko.xyz",
+      "content": "193.233.112.68"
+    },
+    {
+      "name": "designify.com",
+      "content": "193.233.112.67"
+    },
+    {
+      "name": "dnsspeedtest.online",
+      "content": "193.233.112.68"
+    },
+    {
+      "name": "dr.miromind.ai",
+      "content": "193.233.112.67"
+    },
+    {
+      "name": "dtm8.dinamicagenerale.com",
+      "content": "193.233.112.67"
+    },
+    {
+      "name": "ecosia.org",
+      "content": "159.194.200.33"
+    },
+    {
+      "name": "efsanetv.xyz",
+      "content": "193.233.112.68"
+    },
+    {
+      "name": "elmastvnet.xyz",
+      "content": "159.194.200.33"
+    },
+    {
+      "name": "eneba.com",
+      "content": "193.233.112.88"
+    },
+    {
+      "name": "etsy.com",
+      "content": "193.233.112.88"
+    },
+    {
+      "name": "euro.com.pl",
+      "content": "193.233.112.88"
+    },
+    {
+      "name": "evike.com",
+      "content": "193.233.112.67"
+    },
+    {
+      "name": "eyyo.xyz",
+      "content": "193.233.112.67"
+    },
+    {
+      "name": "f00.esfr.pl",
+      "content": "159.194.200.33"
+    },
+    {
+      "name": "files-s2pb.pbsync.com",
+      "content": "193.233.112.68"
+    },
+    {
+      "name": "g2a.com",
+      "content": "193.233.112.68"
+    },
+    {
+      "name": "gamestop.com",
+      "content": "193.233.112.68"
+    },
+    {
+      "name": "hapi.hentaicdn.org",
+      "content": "159.194.200.33"
+    },
+    {
+      "name": "images.contentstack.io",
+      "content": "193.233.112.67"
+    },
+    {
+      "name": "indeed.com",
+      "content": "193.233.112.88"
+    },
+    {
+      "name": "iperf3serverlist.net",
+      "content": "193.233.112.67"
+    },
+    {
+      "name": "linguee.com",
+      "content": "159.194.200.33"
+    },
+    {
+      "name": "m3u.in",
+      "content": "159.194.200.33"
+    },
+    {
+      "name": "madmapper.com",
+      "content": "193.233.112.88"
+    },
+    {
+      "name": "malwarebytes.com",
+      "content": "193.233.112.68"
+    },
+    {
+      "name": "manybooks.net",
+      "content": "159.194.200.33"
+    },
+    {
+      "name": "mediaexpert.pl",
+      "content": "193.233.112.88"
+    },
+    {
+      "name": "mediamarkt.pl",
+      "content": "193.233.112.68"
+    },
+    {
+      "name": "minicircuits.com",
+      "content": "159.194.200.33"
+    },
+    {
+      "name": "misterfpga.org",
+      "content": "159.194.200.33"
+    },
+    {
+      "name": "mouser.com",
+      "content": "159.194.200.33"
+    },
+    {
+      "name": "n8n.cloud",
+      "content": "193.233.112.68"
+    },
+    {
+      "name": "ndi.tv",
+      "content": "193.233.112.67"
+    },
+    {
+      "name": "ndi.video",
+      "content": "193.233.112.88"
+    },
+    {
+      "name": "netapp.com",
+      "content": "193.233.112.68"
+    },
+    {
+      "name": "octanorm.com",
+      "content": "159.194.200.33"
+    },
+    {
+      "name": "octanorm.expo.shop",
+      "content": "193.233.112.67"
+    },
+    {
+      "name": "padi.com",
+      "content": "193.233.112.67"
+    },
+    {
+      "name": "pandasecurity.com",
+      "content": "193.233.112.67"
+    },
+    {
+      "name": "panic.com",
+      "content": "193.233.112.88"
+    },
+    {
+      "name": "pcmag.com",
+      "content": "193.233.112.68"
+    },
+    {
+      "name": "pi.ai",
+      "content": "193.233.112.67"
+    },
+    {
+      "name": "play.date",
+      "content": "193.233.112.88"
+    },
+    {
+      "name": "powertoolsuk.co.uk",
+      "content": "193.233.112.88"
+    },
+    {
+      "name": "ppkas.com",
+      "content": "159.194.200.33"
+    },
+    {
+      "name": "pr0gramm.com",
+      "content": "193.233.112.67"
+    },
+    {
+      "name": "promods.net",
+      "content": "193.233.112.68"
+    },
+    {
+      "name": "prowlarr.servarr.com",
+      "content": "193.233.112.68"
+    },
+    {
+      "name": "remove.bg",
+      "content": "193.233.112.67"
+    },
+    {
+      "name": "res.cloudinary.com",
+      "content": "193.233.112.67"
+    },
+    {
+      "name": "romsgames.net",
+      "content": "193.233.112.68"
+    },
+    {
+      "name": "se.com",
+      "content": "193.233.112.67"
+    },
+    {
+      "name": "securitytrails.com",
+      "content": "159.194.200.33"
+    },
+    {
+      "name": "singlekey-id.com",
+      "content": "159.194.200.33"
+    },
+    {
+      "name": "squareup.com",
+      "content": "193.233.112.68"
+    },
+    {
+      "name": "superpharm.eu",
+      "content": "193.233.112.67"
+    },
+    {
+      "name": "superpharm.pl",
+      "content": "193.233.112.68"
+    },
+    {
+      "name": "ti.com",
+      "content": "159.194.200.33"
+    },
+    {
+      "name": "trimble.com",
+      "content": "159.194.200.33"
+    },
+    {
+      "name": "trueachievements.com",
+      "content": "193.233.112.67"
+    },
+    {
+      "name": "uainvest.com.ua",
+      "content": "193.233.112.88"
+    },
+    {
+      "name": "ultimaker.com",
+      "content": "193.233.112.67"
+    },
+    {
+      "name": "unscreen.com",
+      "content": "159.194.200.33"
+    },
+    {
+      "name": "vipvera.com",
+      "content": "193.233.112.88"
+    },
+    {
+      "name": "wbagora.com",
+      "content": "193.233.112.88"
+    },
+    {
+      "name": "wbgames.com",
+      "content": "193.233.112.68"
+    },
+    {
+      "name": "weborama.nl",
+      "content": "193.233.112.88"
+    },
+    {
+      "name": "whimsical.com",
+      "content": "193.233.112.88"
+    },
+    {
+      "name": "windguru.cz",
+      "content": "159.194.200.33"
+    },
+    {
+      "name": "wise.com",
+      "content": "193.233.112.67"
+    },
+    {
+      "name": "cgtrader.com",
+      "content": "193.233.112.88"
+    },
+    {
+      "name": "xiaomi.eu",
+      "content": "193.233.112.68"
+    },
+    {
+      "name": "yeggi.com",
+      "content": "193.233.112.88"
+    },
+    {
+      "name": "yupp.ai",
+      "content": "159.194.200.33"
+    },
+    {
+      "name": "zapier-deployment.com",
+      "content": "193.233.112.88"
+    },
+    {
+      "name": "zapier.com",
+      "content": "193.233.112.88"
+    },
+    {
+      "name": "freakhosting.com",
+      "content": "159.194.200.33"
+    },
+    {
+      "name": "microcenter.com",
+      "content": "193.233.112.68"
+    },
+    {
+      "name": "inceptionlabs.ai",
+      "content": "193.233.112.68"
+    },
+    {
+      "name": "old.yummyani.me",
+      "content": "159.194.200.33"
+    },
+    {
+      "name": "qoder.com",
+      "content": "193.233.112.88"
+    },
+    {
+      "name": "tokenharbor.ai",
+      "content": "193.233.112.68"
+    },
+    {
+      "name": "audacy.com",
+      "content": "193.233.112.88"
+    },
+    {
+      "name": "miro.com",
+      "content": "193.233.112.88"
+    },
+    {
+      "name": "test.dns.malw.link",
+      "content": "185.31.40.18"
+    },
+    {
+      "name": "instagram.com",
+      "content": "57.144.248.34"
+    },
+    {
+      "name": "z-p42-chat-e2ee-ig.facebook.com",
+      "content": "57.144.248.34"
+    },
+    {
+      "name": "sora.chatgpt.com",
+      "content": "217.60.179.6"
+    },
+    {
+      "name": "api.github.com",
+      "content": "217.60.179.6"
+    },
+    {
+      "name": "api.individual.githubcopilot.com",
+      "content": "217.60.179.6"
+    },
+    {
+      "name": "proxy.individual.githubcopilot.com",
+      "content": "217.60.179.6"
+    },
+    {
+      "name": "api.tidal.com",
+      "content": "217.60.179.6"
+    },
+    {
+      "name": "listen.tidal.com",
+      "content": "217.60.179.6"
+    },
+    {
+      "name": "login.tidal.com",
+      "content": "217.60.179.6"
+    },
+    {
+      "name": "auth.tidal.com",
+      "content": "217.60.179.6"
+    },
+    {
+      "name": "link.tidal.com",
+      "content": "217.60.179.6"
+    },
+    {
+      "name": "dd.tidal.com",
+      "content": "217.60.179.6"
+    },
+    {
+      "name": "resources.tidal.com",
+      "content": "217.60.179.6"
+    },
+    {
+      "name": "images.tidal.com",
+      "content": "217.60.179.6"
+    },
+    {
+      "name": "api.squareup.com",
+      "content": "217.60.179.6"
+    },
+    {
+      "name": "api-global.squareup.com",
+      "content": "217.60.179.6"
+    },
+    {
+      "name": "www2.deepl.com",
+      "content": "217.60.179.6"
+    },
+    {
+      "name": "voice-proxy.www.deepl.com",
+      "content": "217.60.179.6"
+    },
+    {
+      "name": "a.claude.ai",
+      "content": "217.60.179.6"
+    },
+    {
+      "name": "tiktok.com",
+      "content": "217.60.179.6"
+    },
+    {
+      "name": "dyson.fr",
+      "content": "217.60.179.6"
+    },
+    {
+      "name": "patreon.com",
+      "content": "217.60.179.6"
+    }
+  ]
+}

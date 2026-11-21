@@ -1,0 +1,26 @@
+name: Apply approved NextDNS 419-rule plan
+on:
+  push:
+    branches: [ops/apply-nextdns-419]
+permissions:
+  contents: read
+jobs:
+  apply:
+    runs-on: ubuntu-latest
+    timeout-minutes: 50
+    environment: DNS
+    env:
+      CLIENT_ID: ${{ secrets.CLIENT_ID }}
+      AUTH_SECRET: ${{ secrets.AUTH_SECRET }}
+    steps:
+      - uses: actions/checkout@v5
+      - name: Apply approved plan and verify profile
+        run: python3 scripts/apply_nextdns_419.py
+      - name: Store encrypted backup and verification
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: nextdns-approved-migration-encrypted
+          path: nextdns-*.cms
+          retention-days: 7
+          if-no-files-found: warn
