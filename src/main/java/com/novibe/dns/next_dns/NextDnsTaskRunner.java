@@ -56,7 +56,7 @@ public class NextDnsTaskRunner extends DnsTaskRunner {
         if (!rewriteSources.isEmpty()) {
 
             Log.step("Obtain rewrite lists from %s sources".formatted(rewriteSources.size()));
-            List<BypassRoute> overrides = overrideListsLoader.fetchWebsites(rewriteSources);
+            List<BypassRoute> overrides = overrideListsLoader.fetchNextDnsWebsites(rewriteSources);
 
             if (nonNull(dnsProfile.donorDns())) {
                 Log.step("Replace IP of domains via IPs from " + dnsProfile.donorDns());

@@ -31,8 +31,16 @@ public abstract class ListLoader<T> {
 
     protected abstract Predicate<HostsLine> filterRelatedLines();
 
-    @SuppressWarnings("preview")
     public List<T> fetchWebsites(List<String> urls) {
+        return fetchHostsLines(urls).stream()
+                .flatMap(List::stream)
+                .distinct()
+                .map(this::toObject)
+                .collect(Collectors.toCollection(ArrayList::new));
+    }
+
+    @SuppressWarnings("preview")
+    protected List<List<HostsLine>> fetchHostsLines(List<String> urls) {
         try (var scope = StructuredTaskScope.open()) {
             List<StructuredTaskScope.Subtask<String>> requests = new ArrayList<>();
             urls.stream()
@@ -42,18 +50,16 @@ public abstract class ListLoader<T> {
 
             return requests.stream()
                     .map(StructuredTaskScope.Subtask::get)
-                    .flatMap(DataParser::splitByEol)
-                    .map(String::strip)
-                    .parallel()
-                    .filter(line -> !line.isBlank())
-                    .filter(line -> !DataParser.isComment(line))
-                    .map(String::toLowerCase)
-                    .map(DataParser::parseHostsLine)
-                    .filter(Objects::nonNull)
-                    .filter(filterRelatedLines())
-                    .distinct()
-                    .map(this::toObject)
-                    .collect(Collectors.toCollection(ArrayList::new));
+                    .map(data -> DataParser.splitByEol(data)
+                            .map(String::strip)
+                            .filter(line -> !line.isBlank())
+                            .filter(line -> !DataParser.isComment(line))
+                            .map(String::toLowerCase)
+                            .map(DataParser::parseHostsLine)
+                            .filter(Objects::nonNull)
+                            .filter(filterRelatedLines())
+                            .toList())
+                    .toList();
         } catch (InterruptedException e) {
             throw new RuntimeException(e);
         }
@@ -71,5 +77,4 @@ public abstract class ListLoader<T> {
         }
         return response.body();
     }
-
 }
