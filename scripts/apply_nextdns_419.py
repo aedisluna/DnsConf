@@ -196,7 +196,7 @@ def main():
             current = api.rows()
             if fingerprint(current) != fingerprint(before):
                 raise
-            if not (str(error).startswith("NextDNS HTTP 400") or str(error).startswith("NextDNS HTTP 405")):
+            if not (str(error).startswith("NextDNS HTTP 400") or str(error).startswith("NextDNS HTTP 405") or str(error).startswith("NextDNS HTTP 404")):
                 raise
             print("Array replacement unavailable; applying reviewed per-record changes", flush=True)
             reconcile(api, target)
